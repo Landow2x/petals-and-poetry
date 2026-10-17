@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Petals and Poetry</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400;1,6..96,500&family=Jost:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="petal" viewBox="0 0 40 40">
+    <g fill="currentColor">
+      <ellipse cx="20" cy="9" rx="4.4" ry="7.6"/>
+      <ellipse cx="20" cy="9" rx="4.4" ry="7.6" transform="rotate(72 20 20)"/>
+      <ellipse cx="20" cy="9" rx="4.4" ry="7.6" transform="rotate(144 20 20)"/>
+      <ellipse cx="20" cy="9" rx="4.4" ry="7.6" transform="rotate(216 20 20)"/>
+      <ellipse cx="20" cy="9" rx="4.4" ry="7.6" transform="rotate(288 20 20)"/>
+    </g>
+    <circle cx="20" cy="20" r="3.2" fill="#96964f"/>
+  </symbol>
+</svg>
+
+<div class="curtain" id="curtain" aria-hidden="true">
+  <div class="cm"><svg class="orn"><use href="#petal"/></svg><span>Petals &amp; Poetry</span></div>
+</div>
+
+<div class="wrap">
+  <header class="top">
+    <a class="mark" href="#home" data-go="home"><svg class="orn"><use href="#petal"/></svg>Petals &amp; Poetry</a>
+    <nav aria-label="Main">
+      <a href="#flowers" data-scroll="flowers">Flower bouquets</a>
+      <a href="#coconut" data-scroll="coconut">Coconut shell</a>
+      <a class="btn sm" href="#order" data-go="order">Order now</a>
+    </nav>
+  </header>
+</div>
+
+<main id="view-home" class="view">
+  <div class="wrap">
+    <div class="hero">
+      <div>
+        <h1 class="rise">Petals <span>&amp;</span> Poetry</h1>
+        <p class="lead rise d2">Where every love tells a story.</p>
+        <p class="more rise d2">Petals &amp; Poetry is a small business that creates handmade and customized gifts for every special moment. From beautiful flower bouquets and fuzzy wire creations to unique coconut shell accessories, we offer thoughtful products made with love and creativity. We believe that even the simplest gift can express the deepest feelings and create meaningful memories.</p>
+        <p class="more rise d2" style="margin-top:14px">Every bouquet comes with a poem and a card, so you can write a message to the one you love.</p>
+        <div class="actions rise d3">
+          <a class="btn" href="#order" data-go="order">Order now</a>
+          <a class="link" href="#flowers" data-scroll="flowers">See what we make</a>
+        </div>
+      </div>
+      <div class="seal rise d3">
+        <svg class="ring" viewBox="0 0 200 200" aria-hidden="true">
+          <defs><path id="ringPath" d="M100,100 m-90,0 a90,90 0 1,1 180,0 a90,90 0 1,1 -180,0"/></defs>
+          <text><textPath href="#ringPath" textLength="556" lengthAdjust="spacing">HANDMADE WITH LOVE • WHERE EVERY LOVE TELLS A STORY • </textPath></text>
+        </svg>
+        <img src="image/logo.jpg" alt="Petals and Poetry seal: a rose resting on a rolled poem" width="520" height="527">
+      </div>
+    </div>
+  </div>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="track">
+      <div class="set">
+        <span>Satin bouquets</span><svg class="orn"><use href="#petal"/></svg>
+        <span>Fuzzy wire flowers</span><svg class="orn"><use href="#petal"/></svg>
+        <span>A poem and a card</span><svg class="orn"><use href="#petal"/></svg>
+        <span>Coconut shell earrings</span><svg class="orn"><use href="#petal"/></svg>
+        <span>Keychains</span><svg class="orn"><use href="#petal"/></svg>
+        <span>Necklaces</span><svg class="orn"><use href="#petal"/></svg>
+        <span>Made with love</span><svg class="orn"><use href="#petal"/></svg>
+      </div>
+      <div class="set">
+        <span>Satin bouquets</span><svg class="orn"><use href="#petal"/></svg>
+        <span>Fuzzy wire flowers</span><svg class="orn"><use href="#petal"/></svg>
+        <span>A poem and a card</span><svg class="orn"><use href="#petal"/></svg>
+        <span>Coconut shell earrings</span><svg class="orn"><use href="#petal"/></svg>
+        <span>Keychains</span><svg class="orn"><use href="#petal"/></svg>
+        <span>Necklaces</span><svg class="orn"><use href="#petal"/></svg>
+        <span>Made with love</span><svg class="orn"><use href="#petal"/></svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <section id="flowers">
+      <div class="head reveal">
+        <svg class="orn"><use href="#petal"/></svg>
+        <p class="eyebrow">Handmade flowers that last</p>
+        <h2>Bouquets and keepsakes</h2>
+        <p>Satin and fuzzy wire flowers do not wilt, so the gift and its message stay with the person you give it to.</p>
+      </div>
+      <article class="product reveal"><figure><img id="pimg-satin" src="image/satin.jpg" alt="Bouquet of handmade brown satin roses with a butterfly and a birthday card, wrapped in cream paper" width="640" height="799"></figure><div><span class="tag">Customized, with a card</span><h3>Satin flower bouquets</h3><p class="desc">Our customized satin flower bouquets with heartfelt cards turn simple gifts into meaningful memories. With beautiful handmade flowers and personalized messages, each bouquet is a special way to express love, appreciation, and feelings that words alone cannot convey.</p><h4>Why people choose it</h4><ul class="benefits"><li><b>Long-lasting beauty.</b> Unlike fresh flowers, satin flowers do not wilt easily and can be kept for years.</li><li><b>Memorable keepsake.</b> A lasting reminder of special moments and meaningful relationships.</li><li><b>Cost-effective.</b> It can be displayed and cherished long after the occasion.</li><li><b>Customizable designs.</b> Colors, styles, and arrangements can be personalized to match the recipient’s preferences.</li><li><b>Meaningful gift.</b> A beautiful way to express love, appreciation, and affection.</li><li><b>Reusable decoration.</b> Use it to decorate bedrooms, desks, or special event spaces.</li></ul><div class="actions"><a class="btn sm" href="#order" data-go="order" data-pick="Satin flower bouquet with card">Order this</a></div></div></article>
+<article class="product flip reveal"><figure><img id="pimg-fuzzy" src="image/fuzzy.jpg" alt="Bouquet of blue and white fuzzy wire flowers with photo prints and a love note, wrapped in white and tied with a ribbon" width="640" height="799"></figure><div><span class="tag">Handmade, with a card</span><h3>Fuzzy wire flower bouquets</h3><p class="desc">Our fuzzy wire bouquets are handmade with creativity and care, turning colorful, soft wires into charming flowers that last. Each piece is a unique and thoughtful gift, perfect for expressing love, appreciation, and happiness in a special way.</p><h4>Why people choose it</h4><ul class="benefits"><li><b>Long-lasting flowers.</b> They do not wilt or need watering, making them a lasting gift.</li><li><b>Unique and creative designs.</b> Soft, flexible wires allow different flower shapes and colorful arrangements.</li><li><b>Affordable gift option.</b> A thoughtful and attractive gift without needing fresh flowers.</li><li><b>Customizable styles.</b> Colors and designs can be personalized to suit different tastes and occasions.</li><li><b>Decorative purpose.</b> Adds a cute and colorful touch to bedrooms, desks, and living spaces.</li><li><b>Meaningful keepsake.</b> Treasure it as a reminder of special moments and people.</li></ul><div class="actions"><a class="btn sm" href="#order" data-go="order" data-pick="Fuzzy wire flower bouquet with card">Order this</a></div></div></article>
+<article class="product reveal"><figure><img id="pimg-fuzzykey" src="image/fuzzykey.jpg" alt="Fuzzy wire keychain of two maroon tulips with green leaves, a pearl loop and a white ribbon, on a Petals and Poetry card" width="640" height="799"></figure><div><span class="tag">Handmade</span><h3>Fuzzy wire keychains</h3><p class="desc">Fuzzy wire keychains are cute, handmade accessories crafted from colorful, flexible fuzzy wires and shaped into adorable designs. They are lightweight, customizable, and perfect for decorating keys, bags, or pouches. These little creations make affordable and thoughtful gifts that add a personal touch to everyday essentials.</p><h4>Why people choose it</h4><ul class="benefits"><li><b>Personalized designs.</b> Can be customized into different shapes, colors, and styles to match individual preferences.</li><li><b>Affordable gifts.</b> Budget-friendly yet meaningful for friends, classmates, and loved ones.</li><li><b>Practical use.</b> Helps decorate and identify keys, bags, pouches, and other belongings.</li><li><b>Lightweight and portable.</b> Easy to carry without adding much weight to everyday essentials.</li><li><b>Creative and unique.</b> Each handmade design adds a special touch, making every keychain more personal and memorable.</li></ul><div class="actions"><a class="btn sm" href="#order" data-go="order" data-pick="Fuzzy wire keychain">Order this</a></div></div></article>
+    </section>
+  </div>
+
+  <div class="band">
+    <div class="wrap">
+      <div class="verse-row reveal">
+        <p class="verse">Some flowers fade by Sunday. These stay, and so do the words tucked inside.</p>
+        <div>
+          <p class="eyebrow">How it works</p>
+          <ol class="steps">
+            <li><strong>Choose</strong><p>Pick a bouquet, keychain, or accessory.</p></li>
+            <li><strong>Tell us</strong><p>Share the colors, the occasion, and your story.</p></li>
+            <li><strong>We handcraft</strong><p>Made to order, with your poem and card.</p></li>
+            <li><strong>You give</strong><p>Hand it over and let it say the rest.</p></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <section id="coconut">
+      <div class="head reveal">
+        <svg class="orn"><use href="#petal"/></svg>
+        <p class="eyebrow">Coconut shell accessories</p>
+        <h2>Natural, carved, and polished by hand</h2>
+        <p>Each piece keeps the grain and color of the shell, made from recycled coconut shells.</p>
+      </div>
+      <article class="product reveal"><figure><img id="pimg-cockey" src="image/cockey.jpg" alt="Four coconut shell keychains shaped as a heart with the word love, a sea turtle, a butterfly and a leaf" width="640" height="799"></figure><div><span class="tag">Coconut shell</span><h3>Keychains</h3><p class="desc">Coconut shell keychains are small decorative accessories made from coconut shells. They can be carved into different shapes, polished, and decorated with unique patterns. They are useful for keeping keys organized and can also be attached to bags as decorations.</p><h4>Why people choose it</h4><ul class="benefits"><li><b>Unique designs.</b> Crafted into different shapes, patterns, and styles, making each keychain special and attractive.</li><li><b>Eco-friendly material.</b> Made from recycled coconut shells, helping reduce waste and promote sustainability.</li><li><b>Practical use.</b> Helps organize and identify keys, bags, pouches, and other belongings.</li><li><b>Lightweight and portable.</b> Easy to carry every day without adding much weight.</li><li><b>Affordable and meaningful gifts.</b> Budget-friendly, handmade gifts for friends, classmates, and loved ones.</li></ul><div class="actions"><a class="btn sm" href="#order" data-go="order" data-pick="Coconut shell keychain">Order this</a></div></div></article>
+<article class="product flip reveal"><figure><img id="pimg-earrings" src="image/earrings.jpg" alt="Four pairs of handcrafted coconut shell earrings: a ring with a white bead, a leaf shape, a flower and a starfish" width="640" height="799"></figure><div><span class="tag">Coconut shell</span><h3>Earrings</h3><p class="desc">Coconut shell earrings are handmade jewelry pieces crafted from coconut shells. They come in different shapes, sizes, and designs, showcasing the natural color and texture of the material. They are lightweight, stylish, and suitable for everyday wear or special occasions.</p><h4>Why people choose it</h4><ul class="benefits"><li><b>Natural and stylish.</b> A unique, natural look that adds beauty and creativity to different outfits.</li><li><b>Eco-friendly accessories.</b> Made from coconut shells, an alternative to accessories made from newly produced materials.</li><li><b>Lightweight to wear.</b> Easy and comfortable for everyday activities and special occasions.</li><li><b>Unique fashion statement.</b> Shows creativity and individuality through handmade, nature-inspired accessories.</li></ul><div class="actions"><a class="btn sm" href="#order" data-go="order" data-pick="Coconut shell earrings">Order this</a></div></div></article>
+<article class="product reveal"><figure><img id="pimg-necklace" src="image/necklace.jpg" alt="Two handcrafted coconut shell necklaces: a bib of graduated discs on black cord and a ring pendant on a tan cord with beads" width="640" height="799"></figure><div><span class="tag">Coconut shell</span><h3>Necklaces</h3><p class="desc">Coconut shell necklaces are handmade accessories created by shaping and polishing coconut shells into beads, pendants, or other decorative pieces. They can be combined with strings or other materials to create attractive designs. These necklaces offer a natural and unique style while promoting the use of eco-friendly materials.</p><h4>Why people choose it</h4><ul class="benefits"><li><b>Customizable designs.</b> Crafted in various shapes, sizes, and patterns to suit different preferences.</li><li><b>Natural beauty.</b> Features the natural texture and color of coconut shells, a simple yet attractive accessory.</li><li><b>Perfect for gifting.</b> A thoughtful and unique gift for birthdays, celebrations, and other special occasions.</li><li><b>Affordable accessory.</b> A budget-friendly option for people who want stylish and unique jewelry.</li><li><b>Durable and long-lasting.</b> Properly crafted coconut shell pieces are sturdy and last a long time with proper care.</li></ul><div class="actions"><a class="btn sm" href="#order" data-go="order" data-pick="Coconut shell necklace">Order this</a></div></div></article>
+    </section>
+  </div>
+
+  <div class="band cta">
+    <div class="wrap">
+      <div class="inner reveal">
+        <div>
+          <h2>Ready to tell your story?</h2>
+          <p>Choose your piece, tell us who it is for, and we will handcraft it with a poem and a card.</p>
+        </div>
+        <a class="btn light" href="#order" data-go="order">Order now</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<main id="view-order" class="view" hidden>
+  <div class="band order-hero">
+    <div class="wrap">
+      <a class="back" href="#home" data-go="home">&larr; Back to shop</a>
+      <p class="eyebrow">Order now</p>
+      <h1 class="rise">Tell us your story</h1>
+      <p class="sub rise d2">Choose your piece and fill in the details. Your answers turn into a ready message on the right. Copy it and send it to us the way you usually reach us. We will reply to confirm the design and timing.</p>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <form class="order-grid" id="orderForm" autocomplete="off">
+      <div>
+        <div class="fs reveal">
+          <h2><span class="n">1</span>Choose your piece</h2>
+          <div class="picks" role="radiogroup" aria-label="Choose your piece">
+            <label class="pick"><input type="radio" name="product" value="Satin flower bouquet with card" checked><span class="card"><img data-from="pimg-satin" alt=""><span class="nm">Satin bouquet</span><span class="chk"></span></span></label><label class="pick"><input type="radio" name="product" value="Fuzzy wire flower bouquet with card"><span class="card"><img data-from="pimg-fuzzy" alt=""><span class="nm">Fuzzy wire bouquet</span><span class="chk"></span></span></label><label class="pick"><input type="radio" name="product" value="Fuzzy wire keychain"><span class="card"><img data-from="pimg-fuzzykey" alt=""><span class="nm">Fuzzy wire keychain</span><span class="chk"></span></span></label><label class="pick"><input type="radio" name="product" value="Coconut shell keychain"><span class="card"><img data-from="pimg-cockey" alt=""><span class="nm">Coconut keychain</span><span class="chk"></span></span></label><label class="pick"><input type="radio" name="product" value="Coconut shell earrings"><span class="card"><img data-from="pimg-earrings" alt=""><span class="nm">Coconut earrings</span><span class="chk"></span></span></label><label class="pick"><input type="radio" name="product" value="Coconut shell necklace"><span class="card"><img data-from="pimg-necklace" alt=""><span class="nm">Coconut necklace</span><span class="chk"></span></span></label>
+          </div>
+        </div>
+        <div class="fs reveal">
+          <h2><span class="n">2</span>The details</h2>
+          <div class="row2">
+            <label class="f" for="yourName">Your name<input id="yourName" type="text" value="Maria"></label>
+            <label class="f" for="forWhom">Giving it to<input id="forWhom" type="text" value="my mother"></label>
+          </div>
+          <div class="row2">
+            <label class="f" for="occasion">Occasion
+              <select id="occasion">
+                <option selected>Birthday</option>
+                <option>Anniversary</option>
+                <option>Thank you</option>
+                <option>Graduation</option>
+                <option>Wedding</option>
+                <option>Just because</option>
+              </select>
+            </label>
+            <label class="f" for="colors">Colors or design
+              <input id="colors" type="text" value="brown and cream, with a butterfly">
+            </label>
+          </div>
+        </div>
+        <div class="fs reveal">
+          <h2><span class="n">3</span>Your story</h2>
+          <label class="f" for="story">Message for the card and poem
+            <textarea id="story">She raised four of us and still saves the best mango for whoever comes home last.</textarea>
+          </label>
+        </div>
+      </div>
+
+      <aside class="summary reveal" aria-live="polite">
+        <p class="eyebrow">Your message</p>
+        <pre id="msg"></pre>
+        <div class="actions">
+          <button class="btn" type="button" id="copyBtn">Copy message</button>
+          <span class="status" id="status"></span>
+        </div>
+        <p class="note">The example is filled in so you can see how it works. Replace it with your own details.</p>
+      </aside>
+    </form>
+  </div>
+</main>
+
+<div class="wrap">
+  <footer>
+    <span class="mark">Petals &amp; Poetry</span>
+    <span>Where every love tells a story. #PetalsAndPoetry</span>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
